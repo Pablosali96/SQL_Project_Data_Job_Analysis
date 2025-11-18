@@ -19,5 +19,5 @@ WHERE
 GROUP BY
     skills
 ORDER BY 
-    skill_salary DESC
+    avg_salary DESC
 LIMIT 25;
